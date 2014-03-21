@@ -60,8 +60,8 @@ public class StampModel extends InfoModel implements java.io.Serializable {
     @Column(nullable = false)
     private String entity;
 
-    @Column(nullable = false)
     @Lob
+    @Column(columnDefinition = "BLOB(267386880)", nullable = false)
     private byte[] stampBytes;
     
 //    @Version

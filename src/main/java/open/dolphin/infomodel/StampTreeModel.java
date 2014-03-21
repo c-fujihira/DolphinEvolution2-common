@@ -95,7 +95,7 @@ public class StampTreeModel extends InfoModel implements IStampTreeModel, java.i
     private String treeXml;
 
     @Lob
-    @Column(nullable = false)
+    @Column(columnDefinition = "BLOB(267386880)", nullable = false)
     private byte[] treeBytes;
 
     private String versionNumber;
