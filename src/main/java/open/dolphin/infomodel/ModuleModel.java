@@ -190,7 +190,7 @@ public class ModuleModel extends KarteEntryBean
         //ret.setKarteBean(this.getKarteBean());
         //ret.setUserModel(this.getUserModel());
         //ret.setDocumentModel(this.getDocumentModel());
-
+        
         return ret;
     }
 
